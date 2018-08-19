@@ -1,0 +1,226 @@
+{
+	"id": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+	"name": "Blog",
+	"description": "",
+	"order": [
+		"b6c0a8c5-4902-b7f8-76af-3b991e2a5d33",
+		"5660227b-1a9d-5897-eb5a-812d4043f9d0",
+		"6a3ed9bf-2566-a432-3b6a-f5c88f017db9",
+		"d206d773-2861-e511-7dd4-58728f3fad70",
+		"34c3d9cb-336a-7446-4a3a-02d1aaed4b93",
+		"fed446a1-1d5f-c55e-e7ba-135ab36cd7b0",
+		"536f08d9-c8e2-ce03-60af-b43361c30aa1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1534676925479,
+	"owner": "4459349",
+	"public": false,
+	"requests": [
+		{
+			"id": "34c3d9cb-336a-7446-4a3a-02d1aaed4b93",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/blogs",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "AddBlog",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534680586593,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"title\": \"User A\",\n  \"post\": \"User\",\n  \"createdBy\": \"5b7952112a660a20a87cd17e\"\n  \n}"
+		},
+		{
+			"id": "536f08d9-c8e2-ce03-60af-b43361c30aa1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/blogs",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UpdateBlog",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534680689774,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"_id\": \"5b795915052ebd00d83e3d0c\",\n  \"title\": \"User B\",\n  \"post\": \"User B\",\n  \"createdBy\": \"5b7952112a660a20a87cd17e\"\n}"
+		},
+		{
+			"id": "5660227b-1a9d-5897-eb5a-812d4043f9d0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/createUser",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534678452994,
+			"name": "GetUsers",
+			"description": "",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"responses": []
+		},
+		{
+			"id": "6a3ed9bf-2566-a432-3b6a-f5c88f017db9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/createUser",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1534678469007,
+			"name": "UpdateUsers",
+			"description": "",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"responses": [],
+			"rawModeData": "\n{\n\t\"_id\": \"5b7952112a660a20a87cd17e\",\n  \"fullName\": \"User A\",\n  \"username\": \"User A\"\n  \n}"
+		},
+		{
+			"id": "b6c0a8c5-4902-b7f8-76af-3b991e2a5d33",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/createUser",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "AddUser",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534678434609,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"fullName\": \"User A\",\n  \"username\": \"User\"\n  \n}"
+		},
+		{
+			"id": "d206d773-2861-e511-7dd4-58728f3fad70",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/createUser",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "DeleteUser",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534678480372,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\n{\n\t\"_id\": \"5b7952112a660a20a87cd17e\",\n\t\"isActive\": \"false\"\n  \n}"
+		},
+		{
+			"id": "fed446a1-1d5f-c55e-e7ba-135ab36cd7b0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/blogs?createdBy=5b7952112a660a20a87cd17e",
+			"queryParams": [
+				{
+					"key": "createdBy",
+					"value": "5b7952112a660a20a87cd17e",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7c7dc563-b36c-5440-ee56-611c3ce855d8",
+			"data": null,
+			"dataMode": "params",
+			"name": "GetBlogsByUserId",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1534680675162,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
